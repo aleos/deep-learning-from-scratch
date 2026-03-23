@@ -6,14 +6,22 @@ A neural network built from scratch in Python, following
 ## What's here
 
 - `network.py` — `Network` class with feedforward propagation
-- `test_network.py` — quick sanity check that the network runs
+- `test_network.py` — tests for sigmoid and network feedforward
 
 ## Setup
 
-Requires Python 3.12+ and numpy.
+Requires Python 3.12+.
 
 ```
-pip install numpy
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Running tests
+
+```
+pytest -v
 ```
 
 ## MNIST data
