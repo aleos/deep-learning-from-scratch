@@ -1,6 +1,5 @@
 # MNIST dataset
-*.idx3-ubyte
-*.idx1-ubyte
+mnist/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

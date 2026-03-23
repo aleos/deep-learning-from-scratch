@@ -26,12 +26,12 @@ pytest -v
 
 ## MNIST data
 
-Download the MNIST dataset files into the project root:
+Download the MNIST dataset files into the `mnist/` directory:
 
-- `train-images.idx3-ubyte`
-- `train-labels.idx1-ubyte`
-- `t10k-images.idx3-ubyte`
-- `t10k-labels.idx1-ubyte`
+- `mnist/train-images.idx3-ubyte`
+- `mnist/train-labels.idx1-ubyte`
+- `mnist/t10k-images.idx3-ubyte`
+- `mnist/t10k-labels.idx1-ubyte`
 
 ## Progress
 
