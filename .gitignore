@@ -1,3 +1,7 @@
+# MNIST dataset
+*.idx3-ubyte
+*.idx1-ubyte
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
